@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/artists"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category_songs" />
+
+                <Button
+                    android:id="@+id/playing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category_playing" />
+
+                <Button
+                    android:id="@+id/store"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category_store" />
+
+                <Button
+                    android:id="@+id/genres"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category_genres" />
+
+            </LinearLayout>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.example.android.freedommusicplayer.StoreActivity">
+
+                <!-- Main background -->
+
+
+                <ImageView
+                    android:id="@+id/background"
+                    style="@style/MainBackground"
+                    android:contentDescription="@string/background" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="92dp"
+                    android:text="@string/store"
+                    android:textAppearance="@style/Label"
+                    android:textColor="@color/colorPrimary" />
+
+                <Button
+                    android:id="@+id/music_to_buy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-59dp"
+                    android:text="@string/buymusic"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="47dp"
+                    android:text="@string/description1"
+                    android:textAppearance="@style/Descriptions"
+                    android:textColor="@color/colorPrimary" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

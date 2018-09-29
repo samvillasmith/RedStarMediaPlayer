@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.redstarmediaplayer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/freedom1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SongsActivity"
+            android:label="Songs"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".StoreActivity"
+            android:label="Store" />
+        <activity
+            android:name=".PlayingActivity"
+            android:label="@string/category_playing" />
+        <activity
+            android:name=".GenresShellActivity"
+            android:label="Genres" />
+        <activity
+            android:name=".RockActivity"
+            android:label="Rock"
+            android:parentActivityName=".GenresShellActivity"/>
+        <activity
+            android:name=".RapActivity"
+            android:label="Rap"
+            android:parentActivityName=".GenresShellActivity"/>
+        <activity
+            android:name=".RussianActivity"
+            android:label="Russian"
+            android:parentActivityName=".GenresShellActivity"/>
+        <activity
+            android:name=".IndieActivity"
+            android:label="Indie"
+            android:parentActivityName=".GenresShellActivity"/>
+
+        <!-- Enables Google Pay-->
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.redstarmediaplayer.MainActivity" />
+    </application>
+
+</manifest>
+

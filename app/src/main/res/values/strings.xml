@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<resources>
+
+    <!-- These are strings for the heart of the app, I didn't want the App name to be mistranslated-->
+
+    <string translatable="false" name="app_name">Red☭Star Media Player</string>
+    <string name="category_playing">Playing</string>
+    <string name="freedom1">"Red Star Media Player"</string>
+    <string name="category_searchinapp">Search</string>
+    <string name="category_store">Store</string>
+    <string name="category_genres">Genres</string>
+    <string name="category_songs">Songs</string>
+    <string name="song_player_name">Song Player</string>
+    <string name="topbutton1">Songs</string>
+    <string name="topbutton2">Albums</string>
+    <string name="topbutton3">Artists</string>
+    <string name="topbutton4">Genres</string>
+
+    <!-- These are strings for use in the actual music player interface -->
+
+    <string name="rewind"> ⏪ </string>
+
+    <string name="forward"> ⏩ </string>
+    <string name="pause"> ❚❚/► </string>
+    <string name="play"> ▶ </string>
+
+    <!-- Player time and playable file type extension -->
+    <string name="song_player_min_sec">0 min, 0 sec</string>
+    <string name="song_player_mp3_extension">.mp3</string>
+
+    <!-- The main background -->
+
+
+    <string name="background">Main Background</string>
+
+    <!-- These are strings for future use in actually playing music-->
+
+
+    <string name="album_image">Album Image</string>
+    <string name="artist_image">Artist Image</string>
+    <string name="genre_image">Song Genre Image</string>
+
+    <!-- These are strings for payment information using the Google Pay API-->
+
+
+    <string name="payment_name">Name</string>
+    <string name="payment">Payment</string>
+    <string name="confirm">Confirm</string>
+    <string name="returnmenu">Back</string>
+    <string name="payment_id">Payment Type</string>
+    <string name="card_number">Card Number</string>
+    <string name="address">Billing Address</string>
+    <string name="full_name">Full Name</string>
+    <string name="credit_card">Credit Card Number</string>
+    <string name="type_id">User ID</string>
+    <string name="type_address">Address</string>
+    <string name="buy">Buy</string>
+    <string name="store">Google Play Intent Would Go Here</string>
+    <string name="buymusic">Buy Music</string>
+    <string name="description1">I plan to have an intent here directly to Google Music</string>
+    <string name="description2">This will be the music player</string>
+    <string name="description3">I plan to have a search bar here, maybe with an ArrayList</string>
+    <string name="description4">I plan to have an ArrayList with all the Artists here</string>
+
+</resources>

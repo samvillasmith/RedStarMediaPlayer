@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+
+<!--I have a lot of ideas for colors, themes, styles, and everything else, but at this stage I'm very indecisive, so I have decided not to delete anything yet, as I continue to shift between whether I like blues, reds, or grays -->
+
+<resources>
+
+    <style parent="Theme.AppCompat.Light" name="AppTheme1">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="android:textColorPrimary">@color/themeTextColor</item>
+    </style>
+
+    <style name="MainBackground">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:scaleType">centerCrop</item>
+    <item name="android:background">@drawable/bg4</item>
+    </style>
+
+
+    <style name="SongAlbumImage">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_centerHorizontal">true</item>
+    <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+    <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="TabListView">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:orientation">vertical</item>
+    <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+    <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+    </style>
+
+
+    <style name="ListItemImage">
+    <item name="android:layout_width">50dp</item>
+    <item name="android:layout_height">50dp</item>
+    </style>
+
+
+    <style name="ListItemWrapper">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:orientation">vertical</item>
+    <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+    </style>
+
+
+    <style name="ListItemName">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:textColor">#4d88ff</item>
+    <item name="android:shadowColor">#FFF</item>
+    <item name="android:shadowDx">2</item>
+    <item name="android:shadowDy">2</item>
+    <item name="android:shadowRadius">2</item>
+    <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+    <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    <item name="android:paddingBottom">8dp</item>
+    </style>
+
+
+    <style name="ListItemAuthor">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+    <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    <item name="android:paddingBottom">8dp</item>
+    </style>
+
+
+    -<style parent="Theme.AppCompat.Light.DarkActionBar" name="AppTheme">
+    <item name="colorPrimary">@color/darkGray</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="MainMenu">
+    <item name="android:padding">16dp</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style name="Descriptions">
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="Label">
+    <item name="android:textColor">@android:color/primary_text_light</item>
+    <item name="android:textSize">30sp</item>
+    <item name="android:padding">16dp</item>
+    </style>
+
+</resources>

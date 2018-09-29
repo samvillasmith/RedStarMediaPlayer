@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/artists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_songs" />
+
+        <Button
+            android:id="@+id/playing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_playing" />
+
+        <Button
+            android:id="@+id/store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_store" />
+
+        <Button
+            android:id="@+id/genres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_genres" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg4"
+        android:orientation="vertical"
+        tools:context="com.example.android.redstarmediaplayer.GenresShellActivity">
+
+
+        <TextView
+            android:id="@+id/indie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indie"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rap and Hip Hop"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rock"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/russian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Russian Pop and Hip Hop"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
